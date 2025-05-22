@@ -44,18 +44,18 @@ jobs:
           base: header
           config_timezone: America/New_York
 
-  lines:
-    runs-on: ubuntu-latest
-    permissions:
-      contents: write
-    steps:
-      - uses: lowlighter/metrics@latest
-        with:
-          filename: lines-of-code.svg
-          token: ${{ secrets.METRICS_TOKEN }}
-          committer_token: ${{ secrets.GITHUB_TOKEN }}
-          base: "repositories"
-          plugin_lines: yes
+  # lines:
+  #   runs-on: ubuntu-latest
+  #   permissions:
+  #     contents: write
+  #   steps:
+  #     - uses: lowlighter/metrics@latest
+  #       with:
+  #         filename: lines-of-code.svg
+  #         token: ${{ secrets.METRICS_TOKEN }}
+  #         committer_token: ${{ secrets.GITHUB_TOKEN }}
+  #         base: "repositories"
+  #         plugin_lines: yes
 
   acti_comm:
     runs-on: ubuntu-latest
