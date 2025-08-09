@@ -12,7 +12,7 @@ jobs:
     permissions:
       contents: write
     steps:
-      - uses: lowlighter/metrics@latest
+      - uses: stalomeow/metrics@projects-v2 # https://github.com/lowlighter/metrics/issues/1706
         with:
           filename: achievements.svg
           token: ${{ secrets.METRICS_TOKEN }}
