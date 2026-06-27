@@ -1,29 +1,57 @@
-<a href="https://github.com/billimek">
-  <img align="center" width="49%" src="./header.svg" />
-</a>
-<br/>
-<a href="https://github.com/billimek">
-  <img align="center" width="49%" src="./repositories.svg" />
-</a>
-<a href="https://github.com/billimek">
-  <img align="center" width="49%" src="./acti_comm.svg" />
-</a>
+<picture>
+  <source
+    media="(prefers-color-scheme: dark)"
+    srcset="./profile-summary-card-output/github_dark/0-profile-details.svg"
+  />
+  <img
+    width="100%"
+    alt="Profile details"
+    src="./profile-summary-card-output/default/0-profile-details.svg"
+  />
+</picture>
 
-<a href="https://github.com/billimek">
-  <img align="center" width="49%" src="./iso_calender.svg" />
-</a>
+<picture>
+  <source
+    media="(prefers-color-scheme: dark)"
+    srcset="./profile-summary-card-output/github_dark/1-repos-per-language.svg"
+  />
+  <img
+    width="49%"
+    alt="Repos per language"
+    src="./profile-summary-card-output/default/1-repos-per-language.svg"
+  />
+</picture>
+<picture>
+  <source
+    media="(prefers-color-scheme: dark)"
+    srcset="./profile-summary-card-output/github_dark/2-most-commit-language.svg"
+  />
+  <img
+    width="49%"
+    alt="Most commit language"
+    src="./profile-summary-card-output/default/2-most-commit-language.svg"
+  />
+</picture>
 
-<a href="https://github.com/billimek">
-    <img align="center" width="49%" src="./issue_pr_lang.svg" />
-</a>
-
-<a href="https://github.com/billimek">
-  <img align="center" width="49%" src="./github-habits.svg" />
-</a>
-<a href="https://github.com/billimek">
-    <img align="center" width="49%" src="./achievements.svg" />
-</a>
-
-<a href="https://github.com/billimek">
-    <img align="center" width="49%" src="./stars.svg" />
-</a>
+<picture>
+  <source
+    media="(prefers-color-scheme: dark)"
+    srcset="./profile-summary-card-output/github_dark/3-stats.svg"
+  />
+  <img
+    width="49%"
+    alt="Stats"
+    src="./profile-summary-card-output/default/3-stats.svg"
+  />
+</picture>
+<picture>
+  <source
+    media="(prefers-color-scheme: dark)"
+    srcset="./profile-summary-card-output/github_dark/4-productive-time.svg"
+  />
+  <img
+    width="49%"
+    alt="Productive time"
+    src="./profile-summary-card-output/default/4-productive-time.svg"
+  />
+</picture>
